@@ -1,9 +1,27 @@
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #13086b;
+  --foreground: #14043d;
 }
+
+:root {
+  --font-family-sans: var(--font-tajawal);
+}
+
+body {
+  font-family: var(--font-family-sans), sans-serif;
+}
+
+
+
+
+
+
+
+
 
 @theme inline {
   --color-background: var(--background);
